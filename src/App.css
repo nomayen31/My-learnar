@@ -1,0 +1,156 @@
+/* MenuBar */
+nav.navbar.navbar-light {
+   background: var(--gray) !important;
+  
+}
+
+.logo {
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#basic-nav-dropdown {
+  color: var(--neutral) !important;
+}
+
+.nav-link {
+  font-weight: bold !important;
+   color: var(--primary) !important;
+   
+  font-size: 18px !important;
+}
+
+.nav-link.active {
+  color: var(--secondary) !important;
+}
+
+.dropdown-item {
+  font-size: 18px;
+}
+
+.dropdown-menu.show {
+  z-index: 9999;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--primary) !important;
+  color: var(--accent) !important;
+}
+
+/* Hero  */
+.ea-hero {
+  background-color: #fefefe;
+  overflow: hidden;
+}
+
+.hero-textarea {
+  z-index: 9;
+  position: relative;
+}
+
+.hero-textarea p {
+  font-size: 18px;
+}
+
+.hero-img-area img {
+  width: 60rem;
+}
+
+/* Mini Hero  */
+.hero-title {
+  color: var(--primary);
+}
+
+/* Course Area  */
+.course-card-footer.card-footer {
+  /* background-color: var(--primary) !important;
+   */
+
+   background-color: crimson;
+  color: var(--gray) !important;
+}
+
+/* services */
+.section-title {
+  text-align: center;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+}
+
+
+
+/* Blog section  */
+.accordion-button:not(.collapsed) {
+  color: var(--accent) !important;
+  background-color: var(--neutral) !important;
+}
+
+/* Sidebar  */
+.sidebar {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* scrollbar  */
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  
+  background: darkslategray;
+}
+
+.sidebar-list {
+  display: block;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 0 10px;
+  color: var(--neutral);
+}
+
+.sidebar-list.active {
+  background: var(--primary);
+  color:var(--gray);
+}
+
+.main-class{
+  background-color:  rgba(160, 216, 246, 0.501);
+  border: 2px solid rgb(202, 208, 210);
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 20px;
+  /* height: 100px; */
+}
+
+.sidebar-edit{
+background-color: rgb(255, 253, 255);
+color: rgb(28, 29, 51);
+margin:10px;
+border-radius: 15px;
+
+}
+
+/* blog */
+.tag {
+  background: var(--gray);
+  color: var(--accent);
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+
+  .vh-80 {
+    height: none
+  }
+
+}

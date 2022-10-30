@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --gray: #f2f2f2;
+  --neutral: #3d4451;
+  --primary: #f6a728;
+  --secondary: #75dcec;
+  --accent: #a237cd;
+
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.txt-color-two {
+  color: var(--secondary);
+}
+
+.txt-color-one {
+  color: var(--primary);
+}
+
+.vh-80 {
+  height: 80vh;
+}
+
+.btn-secondary {
+  background-color: var(--primary) !important;
+  border: none !important;
+  padding: 10px 15px !important;
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary) !important;
+}
+
+.btn-secondary-outline {
+  background-color: #fff !important;
+  color: var(--secondary) !important;
+  border: 2px solid var(--secondary) !important;
+  padding: 10px 15px !important;
+}
+
+.btn-secondary-outline:hover {
+  background-color: var(--secondary) !important;
+  color: #fff !important;
+}
+
+
+
