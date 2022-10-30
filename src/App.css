@@ -67,7 +67,7 @@ nav.navbar.navbar-light {
 .course-card-footer.card-footer {
   
 
-   background-color: crimson;
+   background-color: rgb(220, 20, 60);
   color: var(--gray) !important;
 }
 
