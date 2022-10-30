@@ -65,8 +65,7 @@ nav.navbar.navbar-light {
 
 /* Course Area  */
 .course-card-footer.card-footer {
-  /* background-color: var(--primary) !important;
-   */
+  
 
    background-color: crimson;
   color: var(--gray) !important;
