@@ -39,7 +39,7 @@ nav.navbar.navbar-light {
   color: var(--accent) !important;
 }
 
-/* Hero  */
+/* /* Hero--- */
 .ea-hero {
   background-color: #fefefe;
   overflow: hidden;
@@ -47,7 +47,7 @@ nav.navbar.navbar-light {
 
 .hero-textarea {
   z-index: 9;
-  /* position: relative; */
+  position: relative;
 }
 
 .hero-textarea p {
