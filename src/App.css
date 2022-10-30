@@ -105,7 +105,7 @@ nav.navbar.navbar-light {
 
 .sidebar::-webkit-scrollbar-thumb {
   
-  background: darkslategray;
+  background: rgb(58, 97, 97);
 }
 
 .sidebar-list {
